@@ -17,8 +17,14 @@ Setelah data terkumpul, proyek ini akan menghubungkan hasil scraping ke database
 
 Selanjutnya, proyek ini akan melakukan agregasi data menggunakan kemampuan MongoDB untuk mengolah dan menganalisis data secara efektif. Proses agregasi ini memungkinkan untuk menyusun laporan atau statistik yang memberikan wawasan lebih dalam mengenai peringkat perusahaan, pendapatan, dan faktor-faktor lain yang relevan. Dengan pendekatan ini, diharapkan proyek dapat memberikan hasil analisis yang cepat, akurat, dan mudah diakses, serta berguna untuk berbagai aplikasi dalam dunia bisnis dan riset.
 
+# 📊 Dashboard Analisis
+![image](https://github.com/user-attachments/assets/cfa05749-0fbf-4d31-a95c-da1c5a2b72e7)
+![image](https://github.com/user-attachments/assets/13c03ad4-e7ec-442f-91ae-224514f45f60)
+![image](https://github.com/user-attachments/assets/8edbe768-9c5d-4e9d-afed-1ed6cf5c9ebc)
+![image](https://github.com/user-attachments/assets/b4fe7f54-e734-4382-8d3c-0f9fa1d9f607)
 
-
+Jika ingin melihat dashboardnya lebih rinci, anda bisa mengaksesnya melalui link berikut ini:
+https://charts.mongodb.com/charts-dbnajih-sdejqvp/public/dashboards/68314d68-f651-4eac-8bd3-1898cdc320e3
 
 
 
