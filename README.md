@@ -10,3 +10,18 @@ Peringkat perusahaan berdasarkan pendapatan ini sering kali muncul dalam artikel
 
 Namun, untuk mempermudah akses ke informasi ini, sering kali dilakukan scraping data dari artikel-artikel Wikipedia. Teknik ini memungkinkan pengguna untuk secara otomatis mengumpulkan data tentang peringkat perusahaan berdasarkan pendapatan dan menganalisisnya lebih lanjut. Dengan menggunakan scraping, informasi yang terkandung dalam daftar perusahaan yang besar dan terus berkembang ini dapat dikumpulkan dengan cepat dan efisien, sehingga mempermudah riset atau analisis lebih mendalam.
 
+# 🔍  Deskripsi Projek
+Projek ini bertujuan untuk mengimplementasikan proses scraping data dari sumber-sumber terbuka, seperti artikel Wikipedia, untuk mengumpulkan informasi yang relevan tentang perusahaan-perusahaan berdasarkan peringkat dan pendapatan. Data yang diperoleh akan diambil secara otomatis melalui teknik scraping yang efisien, memastikan informasi yang terkumpul selalu up-to-date dan akurat.
+
+Setelah data terkumpul, proyek ini akan menghubungkan hasil scraping ke database MongoDB, yang memungkinkan penyimpanan data secara terstruktur dan skalabel. MongoDB dipilih karena kemampuannya untuk menangani volume data yang besar dan fleksibilitas dalam menyimpan berbagai jenis informasi.
+
+Selanjutnya, proyek ini akan melakukan agregasi data menggunakan kemampuan MongoDB untuk mengolah dan menganalisis data secara efektif. Proses agregasi ini memungkinkan untuk menyusun laporan atau statistik yang memberikan wawasan lebih dalam mengenai peringkat perusahaan, pendapatan, dan faktor-faktor lain yang relevan. Dengan pendekatan ini, diharapkan proyek dapat memberikan hasil analisis yang cepat, akurat, dan mudah diakses, serta berguna untuk berbagai aplikasi dalam dunia bisnis dan riset.
+
+
+
+
+
+
+
+
+ 
