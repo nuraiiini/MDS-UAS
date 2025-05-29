@@ -17,6 +17,19 @@ Setelah data terkumpul, proyek ini akan menghubungkan hasil scraping ke database
 
 Selanjutnya, proyek ini akan melakukan agregasi data menggunakan kemampuan MongoDB untuk mengolah dan menganalisis data secara efektif. Proses agregasi ini memungkinkan untuk menyusun laporan atau statistik yang memberikan wawasan lebih dalam mengenai peringkat perusahaan, pendapatan, dan faktor-faktor lain yang relevan. Dengan pendekatan ini, diharapkan proyek dapat memberikan hasil analisis yang cepat, akurat, dan mudah diakses, serta berguna untuk berbagai aplikasi dalam dunia bisnis dan riset.
 
+# 🛠️ Tahapan Projek
+1. Web Scrapping
+Langkah awal dilakukan dengan mengambil data dari Wikipedia mengenai daftar perusahaan dengan pendapatan tertinggi (List of largest companies by revenue). Menggunakan R dengan library rvest, data yang diambil pada perusahaan seperti nama, negara asal, industri, dan total revenue 
+2. Membuat Koneksi
+Setelah data berhasil di-scrape, data disimpan dalam database MongoDB, setelah penyimpanan, koneksi ke R dilakukan menggunakan package mongolite, yang memungkinkan R terhubung langsung ke database MongoDB. Berikut adalah contoh membuat koneksi langsung ke R.
+4. Membuat Visualisasi
+Setelah data berhasil diambil dari MongoDB ke dalam data frame di R, tahap selanjutnya adalah membuat konsep visualisasi. Visualisasi ini akan membantu menyampaikan insight secara lebih intuitif.
+5. Membuat Aggregasi
+Selanjutnya data perlu diolah untuk menghasilkan agregasi yang informatif, seperti melihat 10 perusahaan yang memiliki revenue tertinggi, rata-rata pendapatan perusahaan per industri, 10 perusahaan dengan profit paling tinggi dan lain sebagainya.
+Agregasi ini dilakukan setelah membuat koneksi di R, sehingga aggregasi ini langsung di R menggunakan dplyr.
+6. Membuat Github Readme
+Seluruh proses dan hasil dari proyek ini didokumentasikan dalam file README.md di GitHub. README menjelaskan apa tujuan proyek, data apa yang digunakan, serta alur kerja secara keseluruhan. Harapannya dokumentasi kami di Readme dapat membuat pembaca untuk langsung memahami maksud dan cakupan proyek tanpa harus membaca semua baris kode.
+
 # 📊 Dashboard Analisis
 ![image](https://github.com/user-attachments/assets/cfa05749-0fbf-4d31-a95c-da1c5a2b72e7)
 ![image](https://github.com/user-attachments/assets/13c03ad4-e7ec-442f-91ae-224514f45f60)
